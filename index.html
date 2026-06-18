@@ -4,75 +4,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Expatgo | Find Your Perfect Country</title>
+  <title>Expatgo | Compare Countries & Move Abroad</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f7fafc;
+      background: #f8fafc;
       color: #111827;
     }
 
     header {
-      padding: 24px;
+      padding: 24px 20px;
       text-align: center;
-      font-size: 28px;
+      font-size: 30px;
       font-weight: bold;
     }
 
     .hero {
       text-align: center;
-      padding: 60px 20px;
+      padding: 70px 20px 50px;
       max-width: 900px;
       margin: auto;
     }
 
     .hero h1 {
-      font-size: 48px;
+      font-size: 52px;
       margin-bottom: 16px;
+      line-height: 1.1;
     }
 
     .hero p {
-      font-size: 20px;
+      font-size: 21px;
       color: #4b5563;
       line-height: 1.6;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 24px;
-      background: #2563eb;
-      color: white;
-      padding: 14px 28px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 24px;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-      text-align: center;
-    }
-
-    .card h3 {
-      margin-bottom: 10px;
-    }
-
-    .stores {
-      text-align: center;
-      padding: 40px 20px;
+      max-width: 720px;
+      margin: 0 auto;
     }
 
     .store-buttons {
@@ -80,61 +46,79 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 16px;
-      margin-top: 20px;
+      margin-top: 32px;
     }
 
     .store {
       background: #111827;
       color: white;
-      padding: 14px 24px;
-      border-radius: 10px;
+      padding: 16px 26px;
+      border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
-      min-width: 180px;
+      min-width: 210px;
       display: inline-block;
     }
 
-    .waitlist {
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1050px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 26px;
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
       text-align: center;
-      background: #ffffff;
-      padding: 50px 20px;
-      margin-top: 40px;
     }
 
-    input {
-      padding: 14px;
-      width: 260px;
-      max-width: 90%;
-      border: 1px solid #d1d5db;
-      border-radius: 8px;
-      margin-right: 8px;
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 21px;
     }
 
-    button {
-      padding: 14px 22px;
-      border: none;
-      border-radius: 8px;
-      background: #2563eb;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
+    .card p {
+      color: #4b5563;
+      line-height: 1.5;
+    }
+
+    .section {
+      text-align: center;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px 20px;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 12px;
+    }
+
+    .section p {
+      color: #4b5563;
+      font-size: 18px;
+      line-height: 1.6;
     }
 
     footer {
       text-align: center;
-      padding: 30px;
+      padding: 35px 20px;
       color: #6b7280;
       font-size: 14px;
     }
 
     @media (max-width: 600px) {
       .hero h1 {
-        font-size: 36px;
+        font-size: 38px;
       }
 
-      input {
-        margin-right: 0;
-        margin-bottom: 10px;
+      .hero p {
+        font-size: 18px;
       }
     }
   </style>
@@ -146,55 +130,57 @@
   <section class="hero">
     <h1>Find Your Perfect Country</h1>
     <p>
-      Expatgo helps you compare countries and discover the best place to live, work,
-      retire, or start your next adventure abroad.
+      Compare countries and discover the best place to live, work, retire,
+      or start your next adventure abroad.
     </p>
-    <a href="#waitlist" class="button">Join the Waitlist</a>
+
+    <div class="store-buttons">
+      <a class="store"
+         href="https://apps.apple.com/us/app/expatgo/id6776619511"
+         target="_blank">
+          Download on the App Store
+      </a>
+
+      <a class="store"
+         href="https://play.google.com/store/apps/details?id=com.expat_life_app"
+         target="_blank">
+         ▶ Get it on Google Play
+      </a>
+    </div>
   </section>
 
   <section class="features">
     <div class="card">
       <h3>🌎 Compare Countries</h3>
-      <p>Compare cost of living, safety, healthcare, internet speed, lifestyle, and more.</p>
-    </div>
-
-    <div class="card">
-      <h3>🛂 Visa Guidance</h3>
-      <p>Understand visa options, entry requirements, and relocation basics before you move.</p>
+      <p>Compare destinations side by side based on lifestyle, safety, cost, and quality of life.</p>
     </div>
 
     <div class="card">
       <h3>💸 Cost of Living</h3>
-      <p>Estimate your monthly lifestyle costs and find destinations that match your budget.</p>
+      <p>Explore destination affordability and understand what your money could buy abroad.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛂 Visa & Relocation</h3>
+      <p>Review relocation basics and key considerations before choosing your next country.</p>
     </div>
 
     <div class="card">
       <h3>🔐 Safety & Security</h3>
-      <p>Review country safety, crime levels, and important relocation considerations.</p>
+      <p>Check important safety and security information before planning your move.</p>
     </div>
   </section>
 
-  <section class="stores">
-    <h2>Available on iPhone and Android</h2>
- 
-    <div class="store-buttons">
-      <a class="store" href="#waitlist"> App Store<br><small></a>
-      <a class="store" href="#waitlist">▶ Google Play<br><small></a>
-    </div>
-  </section>
-
-  <section class="waitlist" id="waitlist">
-    <h2>Join the Early Access List</h2>
-    <p>Be the first to know when Expatgo launches.</p>
-
-    <form action="mailto:support@expatgo.app" method="post" enctype="text/plain">
-      <input type="email" name="email" placeholder="Enter your email" required />
-      <button type="submit">Join Waitlist</button>
-    </form>
+  <section class="section">
+    <h2>Explore. Compare. Relocate.</h2>
+    <p>
+      Expatgo gives future expats, remote workers, retirees, and global explorers
+      a simple way to research countries and make confident relocation decisions.
+    </p>
   </section>
 
   <footer>
-    © 2026 Expatgo.app — Explore. Compare. Relocate.
+    © 2026 Expatgo.app — Available now on iPhone and Android.
   </footer>
 
 </body>
