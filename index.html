@@ -1,0 +1,203 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expatgo | Find Your Perfect Country</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7fafc;
+      color: #111827;
+    }
+
+    header {
+      padding: 24px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      background: #2563eb;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .stores {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .store-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .store {
+      background: #111827;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      min-width: 180px;
+      display: inline-block;
+    }
+
+    .waitlist {
+      text-align: center;
+      background: #ffffff;
+      padding: 50px 20px;
+      margin-top: 40px;
+    }
+
+    input {
+      padding: 14px;
+      width: 260px;
+      max-width: 90%;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      margin-right: 8px;
+    }
+
+    button {
+      padding: 14px 22px;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      input {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>🌍 Expatgo</header>
+
+  <section class="hero">
+    <h1>Find Your Perfect Country</h1>
+    <p>
+      Expatgo helps you compare countries and discover the best place to live, work,
+      retire, or start your next adventure abroad.
+    </p>
+    <a href="#waitlist" class="button">Join the Waitlist</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>🌎 Compare Countries</h3>
+      <p>Compare cost of living, safety, healthcare, internet speed, lifestyle, and more.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛂 Visa Guidance</h3>
+      <p>Understand visa options, entry requirements, and relocation basics before you move.</p>
+    </div>
+
+    <div class="card">
+      <h3>💸 Cost of Living</h3>
+      <p>Estimate your monthly lifestyle costs and find destinations that match your budget.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔐 Safety & Security</h3>
+      <p>Review country safety, crime levels, and important relocation considerations.</p>
+    </div>
+  </section>
+
+  <section class="stores">
+    <h2>Coming Soon to iPhone and Android</h2>
+    <p>Download links will be available when Expatgo launches.</p>
+
+    <div class="store-buttons">
+      <a class="store" href="#waitlist"> App Store<br><small>Coming Soon</small></a>
+      <a class="store" href="#waitlist">▶ Google Play<br><small>Coming Soon</small></a>
+    </div>
+  </section>
+
+  <section class="waitlist" id="waitlist">
+    <h2>Join the Early Access List</h2>
+    <p>Be the first to know when Expatgo launches.</p>
+
+    <form action="mailto:hello@expatgo.app" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Join Waitlist</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Expatgo.app — Explore. Compare. Relocate.
+  </footer>
+
+</body>
+</html>
+```
